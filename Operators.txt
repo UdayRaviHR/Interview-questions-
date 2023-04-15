@@ -1,0 +1,95 @@
+OPERATORS INTERVIEW QUESTIONS
+
+
+
+1)What are operators?
+: Operators are special symbols in Python that perform arithmetic or logical computations.
+  They are used to manipulate data and variables in a program.
+
+2)What are the different types of operators in Python?
+:There are several types of operators in Python:
+
+Arithmetic operators
+Comparison operators
+Assignment operators
+Logical operators
+Bitwise operators
+Membership operators
+Identity operators
+
+3)What is the difference between == and = in Python?
+: The difference between == and = in Python is that == is a comparison operator that checks if two values are equal, 
+ while = is an assignment operator that assigns a value to a variable.
+
+4)What is the difference between ‘is’ and ‘==’ in Python?
+:The difference between ‘is’ and ‘==’ in Python is that ‘is’ checks if two variables refer to the same object in memory, 
+while ‘==’ checks if two variables have the same value.
+
+5)What is the difference between ‘and’ and ‘&’ in Python?
+:The difference between ‘and’ and ‘&’ in Python is that ‘and’ is a logical operator that returns True if both operands are True,
+ while ‘&’ is a bitwise operator that performs a bitwise AND operation on two integers.
+
+6)What is the difference between ‘or’ and ‘|’ in Python?
+:The difference between ‘or’ and ‘|’ in Python is that ‘or’ is a logical operator that returns True if at least one operand is True, 
+while ‘|’ is a bitwise operator that performs a bitwise OR operation on two integers.
+
+7)What are arithmetic operators in Python?
+Arithmetic operators in Python are used to perform mathematical operations on numeric values.
+The arithmetic operators in Python include +, -, *, /, %, **, and //.
+
+8)What are comparison operators in Python?
+Comparison operators in Python are used to compare two values. 
+The comparison operators in Python include ==, !=, >, <, >=, and <=.
+
+9)What are assignment operators in Python?
+Assignment operators in Python are used to assign values to variables.
+ The assignment operators in Python include =, +=, -=, *=, /=, %=, **=, and //=.
+
+10)What are logical operators in Python?
+Logical operators in Python are used to combine conditional statements. 
+The logical operators in Python include and, or, and not.
+
+11)What are bitwise operators in Python?
+Bitwise operators in Python are used to perform bitwise operations on integers. 
+The bitwise operators in Python include &, |, ^, ~, <<, and >>.
+
+12)What are membership operators in Python?
+Membership operators in Python are used to test if a sequence is present in an object. 
+The membership operators in Python include in and not in.
+
+
+13)What are identity operators in Python?
+Identity operators in Python are used to compare the objects themselves instead of their values. 
+The identity operators in Python include is and is not.
+
+
+14)How do you use the ternary operator in Python?
+The ternary operator in Python is a shorthand way of writing an if-else statement.
+ It has the following syntax: value_if_true if condition else value_if_false.
+
+
+15)How do you use the not operator in Python?
+The not operator in Python is used to reverse the logical state of its operand.
+For example: not True returns False.
+
+16)How do you use the and operator in Python?
+The and operator in Python returns True if both operands are True.
+For example: True and False returns False.
+
+17)How do you use the or operator in Python?
+The or operator in Python returns True if at least one operand is True. 
+For example: True or False returns True.
+
+
+18)How do you use the xor operator in Python?
+The xor operator (exclusive or) in Python returns True if one operand is True and the other is False.
+ For example: True ^ False returns True.
+
+
+19)How do you use the left shift operator in Python?
+The left shift operator (<<) in Python shifts the bits of a number to the left by a specified number of positions.
+ For example: 2 << 2 returns 8.
+
+20)How do you use the right shift operator in Python?
+he right shift operator (>>) in Python shifts the bits of a number to the right by a specified number of positions. 
+For example: 8 >> 2 returns 2.

@@ -1,0 +1,118 @@
+FUNCTIONS INTERVIEW QUESTIONS
+1)what is lambda in python?
+:anonymous function means that a function is without a name.
+As we already know that def keyword is used to define the normal functions and
+the lambda keyword is used to create anonymous functions.
+     lambda arguments: expression
+
+
+2)what is counter in python?
+: The function Counter() from the module ‘collections’. It counts the number of occurrences of the elements of a container.
+Counter({1: 4, 3: 2, 2: 2, 4: 1})
+Python provides us with a range of ways and methods to work with a Counter
+
+3) Mention what are the rules for local and global variables in Python?
+:Local variables: If a variable is assigned a new value anywhere within the function's body, it's assumed to be local.
+Global variables: Those variables that are only referenced inside a function are implicitly global.
+
+4)Mention the use of the split function in Python?
+:The use of the split function in Python is that it breaks a string into shorter strings using the defined separator.
+It gives a list of all words present in the string.
+
+5)What Are The Principal Differences Between The Lambda And Def?
+:Lambda Vs. Def.
+*Def can hold multiple expressions while lambda is a uni-expression function.
+*Def generates a function and designates a name to call it later. Lambda forms a function object and returns it.
+*Def can have a return statement. Lambda can’t have return statements.
+*Lambda supports to get used inside a list and dictionary.
+
+6) What Is A Function In Python Programming?
+:A function is an object which represents a block of code and is a reusable entity.
+ It brings modularity to a program and a higher degree of code reusability.
+Python has given us many built-in functions such as print() and provides the ability to create user-defined functions.
+
+7)What Is The Return Keyword Used For In Python? 
+:The purpose of a function is to receive the inputs and return some output.
+
+The return is a Python statement which we can use in a function for sending a value back to its caller.
+8)Is It Mandatory For A Python Function To Return A Value? 
+: It is not at all necessary for a function to return any value. However, if needed, we can use None as a return value.
+
+9)What Does The Ord() Function Do In Python?
+:The ord(char) in Python takes a string of size one and returns an integer denoting 
+the Unicode code format of the character in case of a Unicode type object, 
+or the value of the byte if the argument is of 8-bit string type.
+
+10) What is *args and **kwargs?
+
+*args is used when the programmer is not sure about how many arguments are going to be passed to a function,
+ or if the programmer is expecting a list or a tuple as argument to the function.
+**kwargs is used when a dictionary (keyword arguments) is expected as an argument to the function.
+
+11)Choose the correct Statements out of all these:
+a) sort() function works in place. For example if x.sort() is done than x will be sorted.
+b) sorted() function does not work in place. For example if x.sorted() is done, than x will not be sorted but x.sorted() will return a sorted form of x.
+c) random and math are builtin modules.
+d) We have to use import statement before using any builtin modules.
+answer: A)C)D)
+
+12)What function in random module should you use to generate random numbers from range 10 to 20 (including both 10 and 20)
+:random.randint(10,20)
+
+
+13)What is the output of the following display() function call
+def display(**kwargs):
+    for i in kwargs:
+        print(i)
+display(emp="Kelly", salary=9000)
+: emp salary
+
+
+14)Python function always returns a value.
+: True
+
+
+15)What is the output of the following displayPerson() function call
+def displayPerson(*args):
+    for i in args:
+        print(i)
+displayPerson(name="Emma", age="25")
+:type error
+
+16)Choose the correct function declaration of  fun1() so that we can execute the following function call successfully
+
+fun1(25, 75, 55)
+fun1(10, 20)
+: def fun1(*data)
+
+17)What is the output of the following function call
+def fun1(num):
+    return num + 25
+fun1(5)
+print(num)
+:name error
+
+
+18) What is the output of the following function call
+def outerFun(a, b):
+    def innerFun(c, d):
+        return c + d
+    return innerFun(a, b)
+    return a
+result = outerFun(5, 10)
+print(result)
+: 15
+
+19)What is the output of the following function call
+def fun1(name, age=20):
+    print(name, age)
+fun1('Emma', 25)
+: emma25
+
+20)Select which statements are true for Python function
+
+a) It is necessary to use a return statement in Python function.
+b) We can reuse functions in a program.
+c) Python functions always returns a value.
+d) A function is a code block that only executes when it is called.
+answer: B)C)D)

@@ -1,0 +1,127 @@
+CONDITIONAL STATEMENTS
+
+1)What will be the output of the following Python code snippet?
+not(3>4)
+not(1&1)
+: True, False
+2)When Should You Use The “Break” In Python? 
+:Python provides a break statement to exit from a loop. Whenever the break hits in the code, 
+ the control of the program immediately exits from the body of the loop.
+The break statement in a nested loop causes the control to exit from the inner iterative block.
+
+3) What is pass in Python?
+Pass means, no-operation Python statement, or in other words it is a place holder in compound statement,
+where there should be a blank left and nothing has to be written there.
+
+Sure! Here are the answers to your questions:
+
+4)What is the syntax of a simple if statement? 
+The syntax of a simple if statement is as follows:
+
+if condition:
+    statement(s)
+If the condition is true, then the statement(s) inside the if block will be executed.
+
+5)What is the difference between if and elif statements?
+ The if statement is used to check a single condition. If it is true, then the statements inside the if block will be executed.
+ The elif statement is used to check multiple conditions. If the first condition is false, 
+then it checks the next condition and so on until a true condition is found. 
+If a true condition is found, then the statements inside that elif block will be executed.
+
+
+6)What is the difference between while and do-while loop? 
+In Python, there is no do-while loop. Instead, you can use a while loop with a break statement to achieve similar functionality.
+
+
+7)What is the difference between break and continue statements?
+ The break statement is used to exit a loop early. When a break statement is encountered inside a loop,
+ the loop will immediately terminate and control will be passed to the next statement after the loop. 
+The continue statement is used to skip over an iteration of a loop. When a continue statement is encountered inside a loop, 
+control will immediately jump to the next iteration of the loop.
+
+
+8)What is the difference between pass and continue statements?
+ The pass statement does nothing. It can be used as a placeholder when you need to write code that does nothing
+ (for example, when defining an empty function). The continue statement skips over an iteration of a loop.
+
+
+9)What is the difference between == and is operators?
+ The == operator checks if two values are equal. The is operator checks if two variables refer to the same object in memory.
+
+
+10)What is the difference between or and | operators? 
+The or operator returns True if either of its operands are True. The | operator performs a bitwise OR operation on its operands.
+
+
+11What is the difference between and and & operators? 
+The and operator returns True if both of its operands are True. The & operator performs a bitwise AND operation on its operands.
+
+
+12)What is the difference between not in and != operators? 
+The not in operator checks if an element does not exist in a sequence (for example, if x not in myList). 
+The != operator checks if two values are not equal (for example, if x != y).
+
+
+13)How do you use if-else statements in Python?
+ Here’s an example of how to use an if-else statement in Python:
+
+x = 5
+if x > 10:
+    print("x is greater than 10")
+else:
+    print("x is less than or equal to 10")
+
+14)What constitutes “True” in Python?
+In Python, any non-zero value or non-empty container is considered True. Conversely, any zero value or empty container is considered False.
+
+
+15)What are the three main conditional statements in Python?
+The three main conditional statements in Python are:
+if statement
+if-else statement
+if-elif-else statement
+
+
+16)What is the syntax of a simple if statement?
+The syntax of a simple if statement is:
+if condition:
+    # code to execute when condition is True
+Here, condition is an expression that evaluates to either True or False. If it evaluates to True,
+ then the code inside the if block will be executed. If it evaluates to False, then the code inside the if block will be skipped.
+
+
+17)Is there any limit of statement that can appear under an if block?
+No, there is no limit to the number of statements that can appear under an if block. However, 
+it is recommended to keep the number of statements under an if block to a minimum for better readability and maintainability of the code.
+
+
+
+18)Write a program to check whether a person is eligible for voting or not answer these questions?
+Sure! Here’s an example program that checks whether a person is eligible for voting or not based on their age:
+age = int(input("Enter your age: "))
+if age >= 18:
+    print("You are eligible to vote!")
+else:
+    print("You are not eligible to vote yet.")
+Here, we take input from the user in the form of their age and check whether it is greater than or equal to 18. If it is, then we print a message saying that they are eligible to vote. 
+Otherwise, we print a message saying that they are not eligible yet.
+
+19)To concatenate two strings to a third what statements are applicable?
+:
+s3 = s1+s2
+
+
+
+
+20)What will be the output of the following Python code snippet?
+
+print('ab,cd,ef,cd,gh.cd'.split(','))
+
+:
+['ab', 'cd', 'ef', 'cd', 'gh.cd']
+
+
+
+
+
+
